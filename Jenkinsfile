@@ -14,7 +14,7 @@ pipeline{
    stage('Package') {
       steps {
         sh './mvnw clean package -DskipTests -Dquarkus.package.type=uber-jar'
-        archiveArtifacts target/*.jar
+        archiveArtifacts 'target/*.jar'
       }
    }
  }
