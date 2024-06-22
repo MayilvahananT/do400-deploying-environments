@@ -1,8 +1,5 @@
 pipeline{
  agent {
-   node {
-#     label 'maven'
-   }
  }
  environment {
     RHT_OCP4_DEV_USER = 'nezkmp'
