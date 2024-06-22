@@ -1,6 +1,5 @@
 pipeline{
- agent {
- }
+
  environment {
     RHT_OCP4_DEV_USER = 'nezkmp'
     DEPLOYMENT_CONFIG_STAGE = 'shopping-cart-stage'
